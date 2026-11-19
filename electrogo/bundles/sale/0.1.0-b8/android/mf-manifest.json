@@ -1,0 +1,222 @@
+{
+  "id": "sale",
+  "name": "sale",
+  "metaData": {
+    "name": "sale",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "@electrogo/sale"
+    },
+    "remoteEntry": {
+      "name": "sale.container.js.bundle",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "sale",
+    "pluginVersion": "2.9.3",
+    "publicPath": "noop:///"
+  },
+  "shared": [
+    {
+      "id": "sale:react-native",
+      "name": "react-native",
+      "version": "*",
+      "singleton": true,
+      "requiredVersion": "*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "sale:react-native/Libraries/Image/AssetRegistry",
+      "name": "react-native/Libraries/Image/AssetRegistry",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "sale:react-native/Libraries/Image/AssetSourceResolver",
+      "name": "react-native/Libraries/Image/AssetSourceResolver",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "sale:react",
+      "name": "react",
+      "version": "*",
+      "singleton": true,
+      "requiredVersion": "*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "sale:react-native-safe-area-context",
+      "name": "react-native-safe-area-context",
+      "version": "*",
+      "singleton": true,
+      "requiredVersion": "*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "sale:react-native/react-private-interface",
+      "name": "react-native/react-private-interface",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "sale:react-native/setup-env",
+      "name": "react-native/setup-env",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "sale:@react-native/normalize-colors",
+      "name": "@react-native/normalize-colors",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "sale:@react-native/asset-utils",
+      "name": "@react-native/asset-utils",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "sale:@react-native/assets-registry/registry",
+      "name": "@react-native/assets-registry/registry",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "sale:App",
+      "name": "App",
+      "assets": {
+        "js": {
+          "sync": [
+            "vendors-node_modules_pnpm_react-native-vector-icons_ionicons_14_0_0_react-native_0_88_1__babe-243581.chunk.bundle",
+            "__federation_expose_App.chunk.bundle"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./App"
+    }
+  ]
+}
